@@ -3,9 +3,6 @@ name: PHP Composer
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ mastername: hello-world
-on: push
 jobs:
   my-job:
     runs-on: ubuntu-latest
